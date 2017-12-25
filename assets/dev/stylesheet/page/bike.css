@@ -1,0 +1,34 @@
+.button-bottom {
+  width: 100%;
+  padding: 0.5rem 1rem ;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.right-btn {
+  text-align: right
+}
+
+.button-bottom button {
+  width: 80%;
+  height: 40px;
+  background-color:#ed252b;
+  color: #fff;
+}
+
+.point-count {
+  margin: 0.8rem -1rem 0 -1rem;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 360px){
+  .point-count {
+    font-size: 1.2rem;
+  }
+}
+.amap-geolocation-con{
+  bottom:105px!important;
+}

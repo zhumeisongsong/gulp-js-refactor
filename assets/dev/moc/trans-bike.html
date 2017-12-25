@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>自行车</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!--css-->
+  <link href="../stylesheet/mui.min.css" rel="stylesheet"/>
+  <link href="../stylesheet/style.min.css" rel="stylesheet">
+  <!--引入高德地图模块-->
+  <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+  <script type="text/javascript"
+          src="http://webapi.amap.com/maps?v=1.3&key=f7e28c87624e4333b20b88893ce48e1d&plugin=AMap.Geocoder,AMap.PlaceSearch"></script>
+  <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+</head>
+<body>
+<!--header nav-->
+<header class="mui-bar mui-bar-nav top-nav-blue">
+  <div class="mui-action-back mui-icon mui-icon-arrowleft mui-pull-left"></div>
+  <h1 id="title" class="mui-title">自行车</h1>
+</header>
+<div class="mui-content">
+  <div id="container" class="map-container"></div>
+
+  <div class="mui-row button-bottom">
+    <div class="mui-col-xs-4">
+      <button id="paging_up" type="button" class="bike-page">上一页</button>
+    </div>
+    <div class="mui-col-xs-4">
+      <div class="point-count"> 共<span class="count total"></span>个自行车站点</div>
+    </div>
+    <div class="mui-col-xs-4 right-btn">
+      <button id="paging_down" type="button" class="bike-page">下一页</button>
+    </div>
+
+
+  </div>
+</div>
+
+<!--script-->
+<script src="../javascript/vendor.js"></script>
+<script src="../javascript/app.js"></script>
+</body>
+</html>
